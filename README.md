@@ -1,5 +1,5 @@
 # Bacon Ipsum Extension
-Browser extension to generate dummy data using the Bacon Ipsum API
+Browser extension to generate dummy data using the [Bacon Ipsum API](https://baconipsum.com/json-api/)
 
 Simply input the number of sentences you wish to retrieve and they will be automatically copied to the clipboard.
 
