@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: #0c0c0c;
+  background-color: #ece5e5;
+  padding: 0.5rem;
+}
+
+#section-generate {
+  display: flex;
+}
+
+#button-generate,
+#input-sentences-amount {
+  color: #0c0c0c;
+  background-color: #eee5e5;
+
+  border: 3px solid;
+  border-radius: 2px;
+  border-color: #d12e2e;
+  padding: 0.5rem;
+}
+
+#button-generate {
+  cursor: pointer;
+}
+
+#button-generate:hover {
+  background-color: #dcdee0;
+}
+
+#input-sentences-amount {
+  margin-right: 0.25rem;
+}
+
+#section-status {
+  text-align: center;
+}
+
+#copied-message,
+#loader {
+  display: none;
+  padding-top: 0.5rem;
+}
